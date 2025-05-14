@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(to top right, #6dd5fa, #2980b9);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  transition: background 1s;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+}
+
+#time {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#focus-input {
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 8px;
+}
+
+.todo-container {
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 500px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.todo-container h2 {
+  margin-bottom: 10px;
+}
+
+.todo-list li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.quote {
+  font-style: italic;
+  margin: 20px 0;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  #time {
+    font-size: 1.4rem;
+  }
+}

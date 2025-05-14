@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daily Focus Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Good Day!</h1>
+  <div id="time"></div>
+
+  <input id="focus-input" placeholder="What's your main focus today?" />
+
+  <div class="todo-container">
+    <h2>To-Do List</h2>
+    <ul class="todo-list" id="todo-list"></ul>
+    <input id="todo-input" placeholder="Add a task..." />
+    <button onclick="addTodo()">Add</button>
+  </div>
+
+  <div class="quote" id="quote">Loading motivational quote...</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
